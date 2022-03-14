@@ -3,6 +3,7 @@ import Cart from "pages/Cart";
 import Drinks from "pages/Drinks";
 import Example from "pages/Example";
 import Home from "pages/Home";
+import Details from "pages/Details";
 import { useRoutes } from "react-router-dom";
 
 export default function App() {
@@ -22,6 +23,10 @@ export default function App() {
 				{
 					path: 'drinks',
 					element: <Drinks />,
+				},
+				{
+					path: 'details',
+					element: <Details />,
 				},
 				{
 					path: 'example',
