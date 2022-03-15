@@ -64,6 +64,8 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero-pattern': "url('./assets/images/bg.jpg')",
+				'cf-left': "url('./assets/images/coffeeLeft.png')",
+				'cf-right': "url('./assets/images/coffeeRight.png')",
 			},
 			maxWidth: {
 				'container': '96rem',
