@@ -64,10 +64,15 @@ module.exports = {
 			},
 			backgroundImage: {
 				'hero-pattern': "url('./assets/images/bg.jpg')",
+				'hero-pattern-details': "url('./assets/images/bg1.jpg')",
+				'capuchino': "url('./assets/images/capuchino.jpg')",
+				'vec-left': "url('./assets/images/vector-left.jpg')",
+				'vec-right': "url('./assets/images/vector-right.jpg')",
 			},
 			maxWidth: {
 				'container': '96rem',
 			},
+			
 		},
 
 	},
