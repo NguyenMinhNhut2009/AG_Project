@@ -17,71 +17,65 @@ export default function Details() {
           </div>
 
           <div className="info  float-right bg-center relative inset-y-28 left-0 w-[50%] ...">
-            <p className="text-center text-black font-bold text-6xl bottom-6">
-              Capuchino
-            </p>
+            <p className="text-center font-bold text-6xl bottom-6">Capuchino</p>
 
             <div className="absolute w-[100%] flex mt-10 ">
-              <p className="align-middle text-black font-bold text-5xl w-[32%]">
-                Size
-              </p>
-              <div className="grid grid-cols-3 text-center">
-                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold text-2xl w-20 h-20 p-[28px] m-1">
+              <p className="align-middle  font-bold text-5xl w-[32%]">Size</p>
+              <div
+                className="grid grid-cols-3 text-center text-2xl"
+              >
+                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267] rounded-3xl font-bold  w-20 h-20 p-[28px] m-1">
                   S
                 </button>
-                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold text-2xl w-20 h-20 p-[28px] m-1">
+                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267] rounded-3xl font-bold  w-20 h-20 p-[28px] m-1">
                   M
                 </button>
-                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold text-2xl w-20 h-20 p-[28px] m-1">
+                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267] rounded-3xl font-bold  w-20 h-20 p-[28px] m-1">
                   L
                 </button>
               </div>
             </div>
 
             <div className="absolute w-[100%] flex mt-40 ">
-              <p className="align-middle text-black font-bold text-5xl w-[32%]">
+              <p className="align-middle  font-bold text-5xl w-[32%]">
                 Quantity
               </p>
-              <div className="grid grid-cols-3 text-center">
-                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-l-3xl font-bold text-2xl w-[88px] h-20 p-[28px]">
+              <div className="grid grid-cols-3 text-center text-2xl">
+                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267] rounded-l-3xl font-bold  w-[88px] h-20 p-[28px]">
                   +
                 </button>
-                <p className="bg-gradient-to-r from-[#A0583C] to-[#C08267] font-bold text-2xl w-[88px] h-20 p-[28px]">
+                <p className="bg-gradient-to-r from-[#A0583C] to-[#C08267] font-bold w-[88px] h-20 p-[28px]">
                   1
                 </p>
-                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-r-3xl font-bold text-2xl w-[88px] h-20 p-[28px]">
+                <button className="bg-gradient-to-r from-[#A0583C] to-[#C08267] rounded-r-3xl font-bold w-[88px] h-20 p-[28px]">
                   -
                 </button>
               </div>
             </div>
-            
-            <div className="absolute w-[100%] flex mt-[17.5rem] ">
-              <p className="align-middle text-black font-bold text-5xl w-[32%]">
-                Milk
-              </p>
-            <p>_______________________________________</p>
+
+            <div className="absolute w-[100%] flex mt-[17.5rem] text-5xl">
+              <p className="align-middle  font-bold w-[32%]">Milk</p>
+              <p>________________</p>
             </div>
 
-            <div className="absolute w-[100%] flex mt-[25rem] ">
-              <p className="align-middle text-black font-bold text-5xl w-[32%]">
-              Sweetnees 
-              </p>
-            <p>_______________________________________</p>
+            <div className="absolute w-[100%] flex mt-[25rem] text-5xl ">
+              <p className="align-middle  font-bold  w-[32%]">Sweetnees</p>
+              <p>________________</p>
             </div>
 
-            <div className="absolute w-[100%] flex mt-[45rem] grid grid-cols-2">
-              <button className="align-middle text-black w-[92%] bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold text-2xl h-20">
-              Add to Cart 
+            <div className="absolute w-[100%] flex mt-[32.5rem] text-5xl">
+              <p className=" font-bold  w-[32%]">Price</p>
+              <p className="">$30.00</p>
+            </div>
+
+            <div className="absolute w-[100%] flex mt-[45rem] grid grid-cols-2 text-2xl">
+              <button className="align-middle  w-[80%] bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold h-20">
+                Add to Cart
               </button>
-              <button className="align-middle text-black w-[92%] bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold text-2xl h-20">
-              Order Now 
+              <button className="align-middle  w-[80%] bg-gradient-to-r from-[#A0583C] to-[#C08267]  rounded-3xl font-bold h-20">
+                Order Now
               </button>
-            
             </div>
-
-
-            
-
           </div>
         </div>
       </div>
