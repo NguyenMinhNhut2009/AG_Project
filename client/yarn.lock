@@ -1575,22 +1575,15 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
-<<<<<<< HEAD
+"@tailwindcss/line-clamp@^0.3.1":
+  "integrity" "sha512-pNr0T8LAc3TUx/gxCfQZRe9NB2dPEo/cedPHzUGIPxqDMhgjwNm6jYxww4W5l0zAsAddxr+XfZcqttGiFDgrGg=="
+  "resolved" "https://registry.npmjs.org/@tailwindcss/line-clamp/-/line-clamp-0.3.1.tgz"
+  "version" "0.3.1"
+
 "@testing-library/dom@^8.0.0", "@testing-library/dom@>=7.21.4":
   "integrity" "sha512-9LId28I+lx70wUiZjLvi1DB/WT2zGOxUh46glrSNMaWVx849kKAluezVzZrXJfTKKoQTmEOutLes/bHg4Bj3aA=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.11.3.tgz"
   "version" "8.11.3"
-=======
-"@tailwindcss/line-clamp@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/line-clamp/-/line-clamp-0.3.1.tgz#4d8441b509b87ece84e94f28a4aa9998413ab849"
-  integrity sha512-pNr0T8LAc3TUx/gxCfQZRe9NB2dPEo/cedPHzUGIPxqDMhgjwNm6jYxww4W5l0zAsAddxr+XfZcqttGiFDgrGg==
-
-"@testing-library/dom@^8.0.0":
-  version "8.11.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.11.3.tgz#38fd63cbfe14557021e88982d931e33fb7c1a808"
-  integrity sha512-9LId28I+lx70wUiZjLvi1DB/WT2zGOxUh46glrSNMaWVx849kKAluezVzZrXJfTKKoQTmEOutLes/bHg4Bj3aA==
->>>>>>> 06778462eb41b928df74e9682eb4879e52906a34
   dependencies:
     "@babel/code-frame" "^7.10.4"
     "@babel/runtime" "^7.12.5"
@@ -8171,7 +8164,7 @@
   "resolved" "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
   "version" "3.2.4"
 
-"tailwindcss@^3.0.2", "tailwindcss@^3.0.23":
+"tailwindcss@^3.0.2", "tailwindcss@^3.0.23", "tailwindcss@>=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1":
   "integrity" "sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.23.tgz"
   "version" "3.0.23"
