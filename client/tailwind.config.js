@@ -66,6 +66,15 @@ module.exports = {
 				'hero-pattern': "url('./assets/images/bg.jpg')",
 				'cf-left': "url('./assets/images/coffeeLeft.png')",
 				'cf-right': "url('./assets/images/coffeeRight.png')",
+				'cf-0': "url('./assets/images/Maskgroup.jpg')",
+				'cf-1': "url('./assets/images/Maskgroup1.jpg')",
+				'cf-2': "url('./assets/images/Maskgroup2.jpg')",
+				'cf-3': "url('./assets/images/Maskgroup3.jpg')",
+
+				'br-0': "url('./assets/images/Stackbukslogo.png')",
+				'br-1': "url('./assets/images/Timhortins.png')",
+				'br-2': "url('./assets/images/Nescafe-Logo.png')",
+				'br-3': "url('./assets/images/DunkinDonuts.png')",
 			},
 			maxWidth: {
 				'container': '96rem',
